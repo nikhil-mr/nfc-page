@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #b804ff;
+            font-family: monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            
+            flex: auto;
+            padding: 2px;
+            border: 1px solid #b804ff;
+            border-radius: 5px;
+            width: 80%;
+            max-width: 800px;
+            overflow: hidden;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px #b804ff;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+            animation: slideIn 1s ease-in-out;
+        }
+
+        .command {
+            margin-top: 20px;
+            font-size: 1rem;
+            color: #b804ff;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        .success {
+            color: #b804ff;
+        }
+
+    .a{
+    color: #b804ff; /* Replace with your desired color */
+    text-decoration: none; /* Remove underline if needed */
+    }
+
+        
+        .image img{
+            max-width: 100%;
+            height: auto;
+            padding: 20px;
+        }
+
+        .text{
+            flex: 1;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        #img{
+            animation: zoom 1s ease-in-out;
+            overflow: hidden;
+        }
+
+        @keyframes zoom {
+            from {
+                
+                transform: scale(0);
+                opacity:0 ;
+                transform: translateX(-50px);
+            }
+            to {
+                transform: translateX(0px);
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+        
+    </style>
+    
+    
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+        <img src="Nikhil Mani Reji.png" alt="Nikhil Mani Reji" width="200" id="img">
+        </div>
+
+    
+
+    <div class="text">
+        <h1> Welcome!</h1>
+        <p>
+            > My name is Nikhil Mani Reji...<br> </p>
+        <a class="a" href="https://www.instagram.com/12_nikhilreji?igsh=aHNlYjB5Z3UwNGxn"> > Follow me on Instagram! </a> <br>
+        <a class="a" href="https://www.linkedin.com/in/nikhil-mani-reji-582130280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> > Follow me on LinkedIn!</a><br>
+        <a class="a" href="https://github.com/nikhil-mr">> Follow me on GitHub!</a><br>
+        </p>
+        <p class="command">
+            > Welcome, Operative. Proceed with caution!
+        </p>
+    </div>
+    </div>
+</body>
+</html>
